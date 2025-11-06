@@ -1,7 +1,8 @@
 # NYC 311 Response Analysis
 
-This project explores and analyzes data from NYC's 311 Service Requests.  
-My goal is to practice loading, cleaning, analyzing, and visualizing real-world data using code.
+Hello to whoever may see this. This project explores and analyzes data from NYC's 311 Service Requests.  
+My goal is to put into practice loading, cleaning, analyzing, and visualizing real-world data using code based on everything I've learned through certifications for data analytics.
+
 
 ## Project Structure
 
