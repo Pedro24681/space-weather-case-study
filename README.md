@@ -3,6 +3,8 @@
 
 This repository explores space weather (solar flares, coronal mass ejections, solar wind, geomagnetic indices) and its observed or potential impacts on modern technology (satellites, HF radio, GNSS, power grids, aviation).
 
+Load the Space_Weather_Indices_Subset.csv into a Jupyter Notebook to perform basic exploratory analysis
+
 Goals
 - Collect and clean space weather time-series and event data.
 - Analyze correlations between space weather events and disruptions (satellite anomalies, HF outages, GNSS errors, power-grid disturbances).
