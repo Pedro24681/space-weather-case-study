@@ -37,5 +37,6 @@ How to start
 3. Run src scripts to preprocess then analyze and plot.
 
 License & attribution
-- Cite data sources when publishing or sharing results.
+- Cited Sources:
+- https://spaceweather.gfz.de/products-data/forecasts/forecast-kp-index?utm_source=chatgpt.com
 ```
