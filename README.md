@@ -1,7 +1,7 @@
 ```markdown
 # Space Weather & Technology Impact — Case Study
 
-This repository explores space weather (solar flares, coronal mass ejections, solar wind, geomagnetic indices) and its observed or potential impacts on modern technology (satellites, HF radio, GNSS, power grids, aviation).
+Greetings to whoever is reading this. This case study, in essence, is me putting into practice everything I've learned about data analytics. This repository explores space weather (solar flares, coronal mass ejections, solar wind, geomagnetic indices) and its observed or potential impacts on modern technology (satellites, HF radio, GNSS, power grids, aviation).
 
 Load the Space_Weather_Indices_Subset.csv into a Jupyter Notebook to perform basic exploratory analysis
 
