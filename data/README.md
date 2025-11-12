@@ -1,19 +1,31 @@
-# Data Folder
+```markdown
+# Data Folder — Space Weather Case Study
 
-This folder contains the datasets used for the NYC 311 Response Analysis project.
+Place your raw datasets here. Recommended filenames and descriptions:
 
-## Contents
+- solar_wind.csv
+  - Description: Time series of solar wind parameters (speed, density, B-field components, Bz) — e.g., OMNI or ACE.
+  - Source: NASA OMNIWeb or CDAWeb.
 
-- `311_Service_Requests.csv`: The primary dataset for analysis. This is a sample version of the NYC 311 Service Requests data, downloaded for this project.
+- kp_index.csv
+  - Description: Planetary K-index (3-hourly) or converted 1-hour proxies.
+  - Source: GFZ Potsdam, NOAA.
 
-## Dataset Source
+- goes_xray.csv
+  - Description: GOES X-ray flux (1-min or 5-min), flares catalog.
+  - Source: NOAA (GOES).
 
-- The data is sourced from [NYC Open Data](https://data.cityofnewyork.us/).
-- Direct link to data: [311 Service Requests Data](https://data.cityofnewyork.us/Public-Safety/311-Service-Requests/erm2-nwe9).
+- geomagnetic_storms.csv
+  - Description: Catalog of storm intervals (start/end times, intensity Dst/Kp).
+  - Source: various geomagnetic indices datasets.
 
-## Notes for Usage
+- satellite_anomalies.csv (optional)
+  - Description: Time-stamped satellite anomaly reports (if available) — vendor reports, space situational awareness feeds, or curated logs.
 
-- The dataset is in **CSV format**.
-- Make sure to place the dataset in this folder (`data/`) before running the analysis scripts or notebooks.
-- Data cleaning and preprocessing are performed in the `src/` folder and Jupyter Notebooks in the `notebooks/` folder.
+- technology_impacts.csv (optional)
+  - Description: Aggregated reports of HF outages, GNSS error spikes, airline rerouting, power grid disturbances with timestamps.
 
+Notes
+- If a dataset is large, include a sample CSV (first N rows) for the repo and keep the full raw data offline or in cloud storage.
+- Typical datetime fields: use ISO 8601 (UTC). Convert all timestamps to UTC for consistent merging.
+- If using API downloads, store raw responses in data/raw/ and processed datasets in data/processed/.
