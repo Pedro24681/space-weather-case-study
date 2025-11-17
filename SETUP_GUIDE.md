@@ -59,7 +59,7 @@ Test that everything is installed correctly:
 python -c "import pandas; import numpy; import matplotlib; import seaborn; import jupyter; print(' All packages installed successfully!')"
 ```
 
-If you see the success message, you're ready to go! �
+If you see the success message, you're ready to go! 
 
 ---
 
@@ -85,7 +85,7 @@ In the Jupyter interface:
 2. Click on `01-data-load-and-eda.ipynb`
 3. Run each cell by pressing **Shift + Enter**
 
-Watch as your data comes to life with visualizations! 📊
+Watch as your data comes to life with visualizations! 
 
 ---
 
@@ -180,7 +180,7 @@ The Kp index measures geomagnetic activity (disturbance in Earth's magnetic fiel
 | 8        | Severe Storm   | Power blackouts possible |
 | 9        | Extreme Storm  | Widespread technology disruption |
 
-Your dataset shows a **Kp=7 event** on November 12, 2025 - a strong geomagnetic storm! �️
+Your dataset shows a **Kp=7 event** on November 12, 2025 - a strong geomagnetic storm! ️
 
 ---
 
