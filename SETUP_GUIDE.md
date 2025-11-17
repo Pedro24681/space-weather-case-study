@@ -56,10 +56,10 @@ This will install:
 Test that everything is installed correctly:
 
 ```bash
-python -c "import pandas; import numpy; import matplotlib; import seaborn; import jupyter; print('✅ All packages installed successfully!')"
+python -c "import pandas; import numpy; import matplotlib; import seaborn; import jupyter; print(' All packages installed successfully!')"
 ```
 
-If you see the success message, you're ready to go! 🎉
+If you see the success message, you're ready to go! �
 
 ---
 
@@ -94,13 +94,13 @@ Watch as your data comes to life with visualizations! 📊
 ```
 space-weather-case-study/
 ├── README.md                           # Main project README
-├── requirements.txt                    # Python dependencies (✅ created!)
+├── requirements.txt                    # Python dependencies ( created!)
 ├── SETUP_GUIDE.md                     # This file
 ├── data/
 │   ├── README.md                       # Data folder documentation
 │   └── Space_Weather_Indices_Subset.csv  # Your Kp index data
 ├── notebooks/
-│   └── 01-data-load-and-eda.ipynb     # Exploratory analysis notebook (✅ created!)
+│   └── 01-data-load-and-eda.ipynb     # Exploratory analysis notebook ( created!)
 ├── src/                                # Python modules (empty - future use)
 └── outputs/                            # Figures and results (empty - will be populated)
 ```
@@ -110,11 +110,11 @@ space-weather-case-study/
 ##  What You'll Learn from the First Notebook
 
 The `01-data-load-and-eda.ipynb` notebook will teach you:
-- ✅ How to load CSV data with pandas
-- ✅ How to explore dataset structure and statistics
-- ✅ How to handle datetime columns
-- ✅ How to create time-series visualizations
-- ✅ How to interpret Kp index values (geomagnetic activity)
+-  How to load CSV data with pandas
+-  How to explore dataset structure and statistics
+-  How to handle datetime columns
+-  How to create time-series visualizations
+-  How to interpret Kp index values (geomagnetic activity)
 
 ---
 
@@ -180,7 +180,7 @@ The Kp index measures geomagnetic activity (disturbance in Earth's magnetic fiel
 | 8        | Severe Storm   | Power blackouts possible |
 | 9        | Extreme Storm  | Widespread technology disruption |
 
-Your dataset shows a **Kp=7 event** on November 12, 2025 - a strong geomagnetic storm! 🌪️
+Your dataset shows a **Kp=7 event** on November 12, 2025 - a strong geomagnetic storm! �️
 
 ---
 
