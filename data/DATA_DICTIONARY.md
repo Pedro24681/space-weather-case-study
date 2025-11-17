@@ -1,10 +1,10 @@
-# 📖 Data Dictionary - Space Weather Indices
+#  Data Dictionary - Space Weather Indices
 
 This document explains all the columns in your space weather datasets.
 
 ---
 
-## 🌟 Space_Weather_Indices_Subset.csv
+##  Space_Weather_Indices_Subset.csv
 
 This file contains Kp index forecasts and ensemble predictions for geomagnetic activity.
 
@@ -27,7 +27,7 @@ This file contains Kp index forecasts and ensemble predictions for geomagnetic a
 
 ---
 
-## 🧭 Understanding the Kp Index
+##  Understanding the Kp Index
 
 ### What is Kp?
 The **Kp index** (Planetary K-index) is a global measure of geomagnetic activity. It indicates how disturbed Earth's magnetic field is due to solar activity.
@@ -50,7 +50,7 @@ During a Kp=7 storm (like in your dataset on Nov 12, 2025), auroras can be visib
 
 ---
 
-## 📊 Ensemble Forecast Explained
+##  Ensemble Forecast Explained
 
 Your dataset uses **ensemble forecasting**, which means:
 - Multiple models run with slightly different parameters
@@ -63,7 +63,7 @@ If `median = 5.0` but `maximum = 7.0`, there's uncertainty. Some models predict 
 
 ---
 
-## 🔮 Probability Columns
+##  Probability Columns
 
 The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain range:
 
@@ -79,7 +79,7 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 
 ---
 
-## 📅 Time Format
+##  Time Format
 
 - **Format:** DD-MM-YYYY HH:MM
 - **Timezone:** UTC (Coordinated Universal Time)
@@ -89,7 +89,7 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 
 ---
 
-## 🌐 Future Datasets (Planned)
+##  Future Datasets (Planned)
 
 ### solar_wind.csv (To be added)
 | Column | Description | Unit |
@@ -122,7 +122,7 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 
 ---
 
-## 🎓 Key Concepts for Beginners
+##  Key Concepts for Beginners
 
 ### What causes geomagnetic storms?
 1. **Solar flares** emit X-rays and UV radiation
@@ -158,7 +158,7 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 
 ---
 
-## 📚 Additional Resources
+##  Additional Resources
 
 - [NOAA Space Weather Scales](https://www.swpc.noaa.gov/noaa-scales-explanation)
 - [Kp Index Explanation](https://www.swpc.noaa.gov/products/planetary-k-index)
@@ -166,7 +166,7 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 
 ---
 
-## 💡 Tips for Using This Data
+##  Tips for Using This Data
 
 1. **Always check the median first** - It's the most reliable single prediction
 2. **Look at the spread** - Large difference between min and max = high uncertainty
