@@ -1,10 +1,10 @@
-# 🐍 Source Code Folder (src/)
+# Source Code Folder (src/)
 
 This folder contains reusable Python modules and scripts for your space weather analysis.
 
----
 
-## 📁 What Goes Here?
+
+## What Goes Here?
 
 This folder is for **reusable code** that you'll use across multiple notebooks. Instead of copying the same code into every notebook, you create functions here and import them.
 
@@ -14,9 +14,9 @@ This folder is for **reusable code** that you'll use across multiple notebooks. 
 - **analysis.py** - Statistical analysis functions
 - **utils.py** - Helper functions (date conversions, calculations)
 
----
 
-## 🎯 Why Use a src/ Folder?
+
+## Why Use a src/ Folder?
 
 ### Benefits:
 1. **Don't Repeat Yourself (DRY)** - Write code once, use it everywhere
@@ -24,9 +24,9 @@ This folder is for **reusable code** that you'll use across multiple notebooks. 
 3. **Cleaner notebooks** - Focus on analysis, not implementation details
 4. **Professional structure** - This is how real projects are organized
 
----
 
-## 📝 Example: data_loader.py
+
+## Example: data_loader.py
 
 ```python
 """
@@ -63,9 +63,9 @@ def filter_storm_events(df, kp_threshold=5):
     return df[df['median'] >= kp_threshold]
 ```
 
----
 
-## 📝 Example: plotting.py
+
+## Example: plotting.py
 
 ```python
 """
@@ -96,9 +96,9 @@ def plot_kp_timeseries(df, title='Kp Index Over Time'):
     return fig
 ```
 
----
 
-## 🔧 How to Use These Modules
+
+## How to Use These Modules
 
 In your Jupyter notebooks, import your custom functions:
 
@@ -117,9 +117,9 @@ storms = filter_storm_events(df, kp_threshold=6)
 fig = plot_kp_timeseries(storms, title='Strong Geomagnetic Storms')
 ```
 
----
 
-## 📚 Best Practices
+
+## Best Practices
 
 ### 1. Use Docstrings
 Always document your functions:
@@ -151,9 +151,9 @@ Each function should do ONE thing well.
 ### 4. Write Tests (Advanced)
 Later, you can add a `tests/` folder to test your functions.
 
----
 
-## 🚀 Getting Started
+
+## Getting Started
 
 For now, this folder is empty - that's OK! As you write notebooks, you'll notice patterns:
 - "I'm copying this code a lot..."
@@ -161,9 +161,9 @@ For now, this folder is empty - that's OK! As you write notebooks, you'll notice
 
 That's when you create a new module in `src/`!
 
----
 
-## 💡 When You're Ready
+
+## When You're Ready
 
 Start with these modules:
 1. **data_loader.py** - Load all your datasets
