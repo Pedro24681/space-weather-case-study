@@ -4,6 +4,7 @@ __pycache__/
 .DS_Store
 *.csv
 !sample/*.csv
+!outputs/processed/*.csv
 venv/
 env/
 .env
