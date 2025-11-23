@@ -1,4 +1,4 @@
-# 📊 Space Weather Analysis - Project Presentation
+#  Space Weather Analysis - Project Presentation
 
 **Analyst:** Pedro Ramirez (@Pedro24681)  
 **Date:** November 2025  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Executive Summary
+##  Executive Summary
 
 This analysis examines geomagnetic activity (Kp index) data to understand space weather patterns and their potential impact on technology infrastructure. The study analyzes space weather conditions over a 9-day period in November 2025, identifying patterns, storm events, and risk probabilities.
 
@@ -18,7 +18,7 @@ This analysis examines geomagnetic activity (Kp index) data to understand space 
 
 ---
 
-## 📈 Analysis Overview
+##  Analysis Overview
 
 ### Dataset Information
 - **Source:** GFZ Potsdam Space Weather Prediction Center
@@ -37,7 +37,7 @@ The Kp index is a global measure of geomagnetic activity on a scale of 0-9:
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 ### 1. Overall Activity Profile
 - **Highest Kp Recorded:** 7.0 (Strong geomagnetic storm)
@@ -58,7 +58,7 @@ Based on probability distributions, the study period showed:
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 ### Visualization 1: Kp Index Time Series
 ![Kp Index Over Time](outputs/figures/01_kp_index_timeseries.png)
@@ -93,11 +93,11 @@ Based on probability distributions, the study period showed:
 
 ---
 
-## 💼 Business/Technology Impact Assessment
+##  Business/Technology Impact Assessment
 
 ### Potential Impacts During Storm Event (Kp = 7.0):
 
-#### 🛰️ **Satellite Operations**
+####  **Satellite Operations**
 - **Risk Level:** MODERATE TO HIGH
 - **Potential Issues:** 
   - Increased atmospheric drag on low-Earth orbit satellites
@@ -105,21 +105,21 @@ Based on probability distributions, the study period showed:
   - Satellite orientation/tracking anomalies
 - **Recommendation:** Enhanced monitoring during storm periods
 
-#### 📡 **Communications**
+####  **Communications**
 - **Risk Level:** MODERATE
 - **Potential Issues:**
   - HF (high-frequency) radio degradation at high latitudes
   - Possible aurora-related interference
 - **Recommendation:** Have backup communication protocols ready
 
-#### ⚡ **Power Grid**
+####  **Power Grid**
 - **Risk Level:** LOW TO MODERATE
 - **Potential Issues:**
   - Induced currents in long transmission lines (high latitudes)
   - Transformer stress (minimal at Kp = 7)
 - **Recommendation:** Monitor grid stability in vulnerable regions
 
-#### ✈️ **Aviation**
+####  **Aviation**
 - **Risk Level:** LOW TO MODERATE
 - **Potential Issues:**
   - Radiation exposure on polar routes (not significant at Kp = 7)
@@ -128,7 +128,7 @@ Based on probability distributions, the study period showed:
 
 ---
 
-## 🎯 Methodology
+##  Methodology
 
 ### Data Processing Steps:
 1. **Data Import:** Loaded CSV data containing Kp index forecasts
@@ -150,7 +150,7 @@ https://github.com/Pedro24681/space-weather-case-study
 
 ---
 
-## 📋 Summary Statistics
+##  Summary Statistics
 
 | Metric | Value |
 |--------|-------|
@@ -167,7 +167,7 @@ https://github.com/Pedro24681/space-weather-case-study
 
 ---
 
-## 🔮 Conclusions
+##  Conclusions
 
 ### Main Takeaways:
 1. **Overall Period:** Generally quiet geomagnetic conditions
@@ -184,7 +184,7 @@ https://github.com/Pedro24681/space-weather-case-study
 
 ---
 
-## 📚 Next Steps
+##  Next Steps
 
 ### Short-term:
 - Analyze correlation with solar wind parameters
@@ -198,7 +198,7 @@ https://github.com/Pedro24681/space-weather-case-study
 
 ---
 
-## 📖 Data Sources & References
+##  Data Sources & References
 
 - **GFZ Potsdam Kp Index Forecasts**  
   https://spaceweather.gfz.de/products-data/forecasts/forecast-kp-index
@@ -211,7 +211,7 @@ https://github.com/Pedro24681/space-weather-case-study
 
 ---
 
-## 👤 About This Project
+##  About This Project
 
 This case study demonstrates practical data analytics skills including:
 - Data acquisition and cleaning
@@ -226,7 +226,7 @@ This case study demonstrates practical data analytics skills including:
 
 ---
 
-## 📧 Contact
+##  Contact
 
 For questions or collaboration opportunities:
 - **GitHub:** @Pedro24681

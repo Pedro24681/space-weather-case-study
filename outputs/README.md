@@ -1,10 +1,10 @@
-# 📊 Outputs Folder
+# Outputs Folder
 
 This folder stores generated visualizations, processed datasets, and analysis results.
 
----
 
-## 📁 What Goes Here?
+
+## What Goes Here?
 
 ### Visualizations:
 - **figures/** - All plots and charts (PNG, JPG, PDF)
@@ -18,9 +18,9 @@ This folder stores generated visualizations, processed datasets, and analysis re
 - **reports/** - Generated PDF/HTML reports
 - **presentations/** - Slides and presentation materials
 
----
 
-## 🎯 Folder Structure (Recommended)
+
+## Folder Structure (Recommended)
 
 ```
 outputs/
@@ -43,9 +43,9 @@ outputs/
     └── ...
 ```
 
----
 
-## 💾 Saving Outputs from Notebooks
+
+## Saving Outputs from Notebooks
 
 ### Save a Plot:
 ```python
@@ -79,7 +79,7 @@ print("✓ Results saved!")
 
 ---
 
-## 🎨 Best Practices
+## Best Practices
 
 ### 1. Use Descriptive Names
 **Good:**
@@ -112,9 +112,9 @@ Create subfolders:
 - `outputs/phase2_integration/`
 - `outputs/final/`
 
----
 
-## 📊 Example: Complete Workflow
+
+## Example: Complete Workflow
 
 ```python
 # In your Jupyter notebook
@@ -149,29 +149,29 @@ summary_df.to_csv('../outputs/results/kp_summary_statistics.csv')
 print("✓ All outputs saved successfully!")
 ```
 
----
 
-## 🎯 What to Save
+
+## What to Save
 
 ### Always Save:
-- ✅ Final visualizations for your report
-- ✅ Processed/cleaned datasets
-- ✅ Summary statistics
-- ✅ Model results and predictions
+-  Final visualizations for your report
+-  Processed/cleaned datasets
+-  Summary statistics
+-  Model results and predictions
 
 ### Consider Saving:
-- ⚠️ Intermediate analysis results
-- ⚠️ Exploratory plots (if interesting)
-- ⚠️ Data subsets for specific analysis
+-  Intermediate analysis results
+-  Exploratory plots (if interesting)
+-  Data subsets for specific analysis
 
 ### Don't Save:
-- ❌ Raw data (keep in `data/` folder)
-- ❌ Temporary test outputs
-- ❌ Duplicate files
+-  Raw data (keep in `data/` folder)
+-  Temporary test outputs
+-  Duplicate files
 
----
 
-## 📋 File Format Guide
+
+## File Format Guide
 
 ### Images:
 - **PNG** - Best for web, presentations (300 dpi recommended)
@@ -185,9 +185,9 @@ print("✓ All outputs saved successfully!")
 - **Parquet** - Fast, compressed (advanced)
 - **JSON** - Hierarchical data
 
----
 
-## 🚀 Quick Start
+
+## Quick Start
 
 Create the subfolders:
 ```bash
@@ -206,9 +206,9 @@ import os
 os.makedirs('../outputs/figures', exist_ok=True)
 ```
 
----
 
-## 📝 Keeping Track
+
+##  Keeping Track
 
 Create a log of your outputs:
 
@@ -226,18 +226,18 @@ Create a log of your outputs:
 - Created: storm_events.csv - Filtered Kp >= 6 events
 ```
 
----
 
-## 🎓 Tips
+
+## Tips
 
 1. **Clean up regularly** - Delete test outputs, keep only finals
 2. **Version important files** - `analysis_v1.csv`, `analysis_v2.csv`
 3. **Use .gitignore** - Don't upload huge files to GitHub (already configured!)
 4. **Backup important results** - Copy to cloud storage periodically
 
----
 
-## 💡 .gitignore Note
+
+## .gitignore Note
 
 Your `.gitignore` file prevents large outputs from being uploaded to GitHub:
 ```
@@ -250,11 +250,11 @@ This is good! GitHub has size limits. For large outputs:
 - Use cloud storage (Google Drive, Dropbox)
 - Use Git LFS (Large File Storage) for important files
 
----
+
 
 **Status:** Empty (will be populated as you create outputs)  
 **Last Updated:** 2025-11-13 19:31:25
 
 ---
 
-**Remember:** Good outputs tell the story of your analysis! 📊✨
+**Remember:** Good outputs tell the story of your analysis! 

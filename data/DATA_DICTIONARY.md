@@ -1,10 +1,10 @@
-# 📖 Data Dictionary - Space Weather Indices
+#  Data Dictionary - Space Weather Indices
 
 This document explains all the columns in your space weather datasets.
 
----
 
-## 🌟 Space_Weather_Indices_Subset.csv
+
+##  Space_Weather_Indices_Subset.csv
 
 This file contains Kp index forecasts and ensemble predictions for geomagnetic activity.
 
@@ -25,9 +25,9 @@ This file contains Kp index forecasts and ensemble predictions for geomagnetic a
 | **prob >= 8** | Float | Probability of Kp being 8 or higher | 0.0 | Probability (0-1) |
 | **kp_0** to **kp_9** | Float | Individual ensemble member predictions | Various | Kp index (0-9) |
 
----
 
-## 🧭 Understanding the Kp Index
+
+##  Understanding the Kp Index
 
 ### What is Kp?
 The **Kp index** (Planetary K-index) is a global measure of geomagnetic activity. It indicates how disturbed Earth's magnetic field is due to solar activity.
@@ -48,9 +48,9 @@ The **Kp index** (Planetary K-index) is a global measure of geomagnetic activity
 ### Fun Fact:
 During a Kp=7 storm (like in your dataset on Nov 12, 2025), auroras can be visible as far south as mid-latitude cities! 🌌
 
----
 
-## 📊 Ensemble Forecast Explained
+
+##  Ensemble Forecast Explained
 
 Your dataset uses **ensemble forecasting**, which means:
 - Multiple models run with slightly different parameters
@@ -61,9 +61,9 @@ Your dataset uses **ensemble forecasting**, which means:
 **Example:**
 If `median = 5.0` but `maximum = 7.0`, there's uncertainty. Some models predict moderate activity while others predict strong storms.
 
----
 
-## 🔮 Probability Columns
+
+##  Probability Columns
 
 The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain range:
 
@@ -77,9 +77,9 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 - `prob 5-6 = 0.5` → 50% chance of moderate storm
 - More uncertainty in this forecast
 
----
 
-## 📅 Time Format
+
+##  Time Format
 
 - **Format:** DD-MM-YYYY HH:MM
 - **Timezone:** UTC (Coordinated Universal Time)
@@ -87,9 +87,9 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 
 **Important:** Always convert to UTC when merging with other datasets!
 
----
 
-## 🌐 Future Datasets (Planned)
+
+##  Future Datasets (Planned)
 
 ### solar_wind.csv (To be added)
 | Column | Description | Unit |
@@ -120,9 +120,9 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 | Anomaly_Type | Type of issue | Orientation error |
 | Severity | Impact level | Moderate |
 
----
 
-## 🎓 Key Concepts for Beginners
+
+##  Key Concepts for Beginners
 
 ### What causes geomagnetic storms?
 1. **Solar flares** emit X-rays and UV radiation
@@ -156,17 +156,17 @@ The `prob X-Y` columns tell you the **likelihood** of Kp falling in a certain ra
 - Radio blackouts
 - Transformer damage possible
 
----
 
-## 📚 Additional Resources
+
+##  Additional Resources
 
 - [NOAA Space Weather Scales](https://www.swpc.noaa.gov/noaa-scales-explanation)
 - [Kp Index Explanation](https://www.swpc.noaa.gov/products/planetary-k-index)
 - [GFZ Potsdam Kp Index](https://www.gfz-potsdam.de/en/kp-index/)
 
----
 
-## 💡 Tips for Using This Data
+
+##  Tips for Using This Data
 
 1. **Always check the median first** - It's the most reliable single prediction
 2. **Look at the spread** - Large difference between min and max = high uncertainty

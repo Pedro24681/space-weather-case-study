@@ -1,8 +1,8 @@
-# 🚀 Setup Guide for Space Weather Case Study
+#  Setup Guide for Space Weather Case Study
 
 Welcome! This guide will help you get started with your space weather analysis project on your personal computer.
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before you begin, make sure you have:
 - Python 3.8 or higher installed ([Download here](https://www.python.org/downloads/))
@@ -11,7 +11,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 🏁 Step-by-Step Setup Instructions
+##  Step-by-Step Setup Instructions
 
 ### Step 1: Clone the Repository to Your Computer
 
@@ -56,10 +56,10 @@ This will install:
 Test that everything is installed correctly:
 
 ```bash
-python -c "import pandas; import numpy; import matplotlib; import seaborn; import jupyter; print('✅ All packages installed successfully!')"
+python -c "import pandas; import numpy; import matplotlib; import seaborn; import jupyter; print(' All packages installed successfully!')"
 ```
 
-If you see the success message, you're ready to go! 🎉
+If you see the success message, you're ready to go! 
 
 ---
 
@@ -85,40 +85,40 @@ In the Jupyter interface:
 2. Click on `01-data-load-and-eda.ipynb`
 3. Run each cell by pressing **Shift + Enter**
 
-Watch as your data comes to life with visualizations! 📊
+Watch as your data comes to life with visualizations! 
 
 ---
 
-## 🎯 Your Current Project Structure
+##  Your Current Project Structure
 
 ```
 space-weather-case-study/
 ├── README.md                           # Main project README
-├── requirements.txt                    # Python dependencies (✅ created!)
+├── requirements.txt                    # Python dependencies ( created!)
 ├── SETUP_GUIDE.md                     # This file
 ├── data/
 │   ├── README.md                       # Data folder documentation
 │   └── Space_Weather_Indices_Subset.csv  # Your Kp index data
 ├── notebooks/
-│   └── 01-data-load-and-eda.ipynb     # Exploratory analysis notebook (✅ created!)
+│   └── 01-data-load-and-eda.ipynb     # Exploratory analysis notebook ( created!)
 ├── src/                                # Python modules (empty - future use)
 └── outputs/                            # Figures and results (empty - will be populated)
 ```
 
 ---
 
-## 📚 What You'll Learn from the First Notebook
+##  What You'll Learn from the First Notebook
 
 The `01-data-load-and-eda.ipynb` notebook will teach you:
-- ✅ How to load CSV data with pandas
-- ✅ How to explore dataset structure and statistics
-- ✅ How to handle datetime columns
-- ✅ How to create time-series visualizations
-- ✅ How to interpret Kp index values (geomagnetic activity)
+-  How to load CSV data with pandas
+-  How to explore dataset structure and statistics
+-  How to handle datetime columns
+-  How to create time-series visualizations
+-  How to interpret Kp index values (geomagnetic activity)
 
 ---
 
-## 🎓 Next Steps After Running the First Notebook
+##  Next Steps After Running the First Notebook
 
 1. **Add More Data Sources**
    - Download solar wind data from [NASA OMNIWeb](https://omniweb.gsfc.nasa.gov/)
@@ -140,7 +140,7 @@ The `01-data-load-and-eda.ipynb` notebook will teach you:
 
 ---
 
-## 🚨 Troubleshooting
+##  Troubleshooting
 
 ### Issue: "pip is not recognized"
 **Solution:** Try `python -m pip install -r requirements.txt`
@@ -156,7 +156,7 @@ The `01-data-load-and-eda.ipynb` notebook will teach you:
 
 ---
 
-## 💡 Pro Tips
+##  Pro Tips
 
 - **Save your work often:** Jupyter auto-saves, but manually save with `Ctrl+S` (Windows/Linux) or `Cmd+S` (Mac)
 - **Use Markdown cells:** Add explanations between code cells to document your thinking
@@ -165,7 +165,7 @@ The `01-data-load-and-eda.ipynb` notebook will teach you:
 
 ---
 
-## 🌟 Understanding Your Data: Kp Index Quick Reference
+##  Understanding Your Data: Kp Index Quick Reference
 
 The Kp index measures geomagnetic activity (disturbance in Earth's magnetic field):
 
@@ -180,11 +180,11 @@ The Kp index measures geomagnetic activity (disturbance in Earth's magnetic fiel
 | 8        | Severe Storm   | Power blackouts possible |
 | 9        | Extreme Storm  | Widespread technology disruption |
 
-Your dataset shows a **Kp=7 event** on November 12, 2025 - a strong geomagnetic storm! 🌪️
+Your dataset shows a **Kp=7 event** on November 12, 2025 - a strong geomagnetic storm! ️
 
 ---
 
-## 📞 Need Help?
+##  Need Help?
 
 - Check the [pandas documentation](https://pandas.pydata.org/docs/)
 - Explore [matplotlib tutorials](https://matplotlib.org/stable/tutorials/index.html)
@@ -193,7 +193,7 @@ Your dataset shows a **Kp=7 event** on November 12, 2025 - a strong geomagnetic 
 
 ---
 
-## ✅ Checklist for First Session
+##  Checklist for First Session
 
 - [ ] Clone repository to your computer
 - [ ] Install Python packages from requirements.txt
@@ -205,6 +205,6 @@ Your dataset shows a **Kp=7 event** on November 12, 2025 - a strong geomagnetic 
 
 ---
 
-**Good luck with your space weather analysis! You've got this! 🚀📊**
+**Good luck with your space weather analysis! You've got this! **
 
 Last updated: 2025-11-13
