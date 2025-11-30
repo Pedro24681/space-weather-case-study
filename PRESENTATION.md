@@ -11,10 +11,10 @@
 This analysis examines geomagnetic activity (Kp index) data to understand space weather patterns and their potential impact on technology infrastructure. The study analyzes space weather conditions over a 9-day period in November 2025, identifying patterns, storm events, and risk probabilities.
 
 ### Key Findings:
-- ✅ Analyzed 73 three-hourly time periods of geomagnetic activity
-- ✅ Identified 1 severe geomagnetic storm event (Kp ≥ 7)
-- ✅ Average Kp index: 2.86 (quiet to unsettled conditions)
-- ✅ Peak activity: Kp = 7.0 on November 12, 2025
+-  Analyzed 73 three-hourly time periods of geomagnetic activity
+-  Identified 1 severe geomagnetic storm event (Kp ≥ 7)
+-  Average Kp index: 2.86 (quiet to unsettled conditions)
+-  Peak activity: Kp = 7.0 on November 12, 2025
 
 ---
 
@@ -177,10 +177,10 @@ https://github.com/Pedro24681/space-weather-case-study
 5. **Recovery:** Rapid return to baseline after storm event
 
 ### Recommendations:
-- ✅ Continue monitoring space weather forecasts
-- ✅ Implement automated alerting for Kp ≥ 6 events
-- ✅ Develop contingency plans for critical infrastructure
-- ✅ Expand analysis to include additional space weather parameters
+-  Continue monitoring space weather forecasts
+-  Implement automated alerting for Kp ≥ 6 events
+-  Develop contingency plans for critical infrastructure
+-  Expand analysis to include additional space weather parameters
 
 ---
 
@@ -240,4 +240,4 @@ For questions or collaboration opportunities:
 
 ---
 
-*This presentation demonstrates real-world data analysis skills applied to space weather monitoring, showcasing technical proficiency in Python, data visualization, and scientific interpretation.*
+*I made this presentation to demonstrate real-world data analysis skills applied to space weather monitoring, showcasing technical proficiency in Python, and data visualization*
