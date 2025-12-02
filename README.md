@@ -1,32 +1,37 @@
 # Space Weather Case Study
 
-This project analyzes key geomagnetic storm triggers using satellite and Kp index data, demonstrating a full scientific workflow: data integration, event detection, and impact assessment through reproducible notebooks and professional visualizations.
+This repository contains a complete, reproducible analysis pipeline to investigate geomagnetic activity (Kp index) and related solar wind drivers. The project demonstrates data integration, event detection, and an impact assessment with production-quality visualizations and a final summary report.
 
 ## Repository Structure
 
-- **notebooks/** – Main Jupyter notebooks for each analysis phase
-- **src/** – Python modules for data loading, analysis, and plotting
-- **data/** – All original input datasets
-- **outputs/** – Generated visualizations, processed data, and results
+- `notebooks/` — Jupyter notebooks for each analysis phase (Phase 1 → Phase 4)
+- `src/` — Reusable Python modules for loading, processing, and plotting
+- `data/` — Raw and reference datasets used in the analysis
+- `outputs/` — Generated figures, processed datasets, and results
+- `ANALYSIS_SUMMARY.md` — Concise technical summary of findings
 
-## Key Phases
+## Key Phases & Artifacts
 
-1. Exploratory Data Analysis (Phase 1)
-2. Data Integration & Merging (Phase 2)
-3. Event Detection & Storm Cataloging (Phase 3)
-4. Impact Assessment & Visualization (Phase 4)
+1. Phase 1 — Data Load & Exploratory Data Analysis (`notebooks/01-data-load-and-eda.ipynb`)  
+2. Phase 2 — Data Integration & Correlation (`notebooks/02-data-integration.ipynb`, `outputs/processed/space_weather_master.csv`)  
+3. Phase 3 — Event Detection & Storm Catalog (`notebooks/03-correlation-and-events.ipynb`, `outputs/processed/storm_catalog.csv`)  
+4. Phase 4 — Impact Assessment & Visualizations (`notebooks/04-impact-assessment.ipynb`, `outputs/figures/`)
 
-## How to Run
+## Quickstart
 
-1. Install requirements:  
-   `pip install -r requirements.txt`
-2. Open JupyterLab or Notebook in the `notebooks/` folder
-3. Run notebooks in order from `01-data-load-and-eda.ipynb` to `04-impact-assessment.ipynb`
+1. Clone the repo:
+   git clone https://github.com/Pedro24681/space-weather-case-study.git
+2. Install dependencies:
+   pip install -r requirements.txt
+3. Open notebooks and run in order:
+   jupyter notebook notebooks/
+   Run: 01 → 02 → 03 → 04
 
-## Project Results
+Note: Some outputs are large and may be stored locally; check `.gitignore` for file handling rules.
 
-See `ANALYSIS_SUMMARY.md` for full key findings and report.
+## License & Contact
 
-—
+Author: Pedro24681  
+Contact: (add your preferred email or LinkedIn link)  
 
-*Author: Pedro24681*
+For full technical findings, see `ANALYSIS_SUMMARY.md`.
