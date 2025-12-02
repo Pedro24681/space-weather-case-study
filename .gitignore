@@ -1,21 +1,13 @@
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-.DS_Store
+. ipynb_checkpoints/
+. DS_Store
 *.csv
-!sample/*.csv
+! outputs/figures/
+!outputs/processed/
 venv/
 env/
 .env
-*.log
-
-# Block outputs first (general rule)
-outputs/*.png
-outputs/*.jpg
-
-# Allow specific figure outputs for presentation (exception)
-!outputs/figures/*.png
-!outputs/figures/*.jpg
-
-.vscode/
+*. log
+. vscode/
 .idea/
