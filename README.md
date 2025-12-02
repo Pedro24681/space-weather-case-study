@@ -1,6 +1,6 @@
 # Space Weather Case Study
 
-This repository contains a complete, reproducible analysis pipeline to investigate geomagnetic activity (Kp index) and related solar wind drivers. The project demonstrates data integration, event detection, and an impact assessment with production-quality visualizations and a final summary report.
+Hello to all that may be reading this! This repository contains a complete, reproducible analysis pipeline to investigate geomagnetic activity (Kp index) and related solar wind drivers. The project demonstrates data integration, event detection, and an impact assessment with production-quality visualizations and a final summary report.
 
 ## Repository Structure
 
@@ -34,4 +34,4 @@ Note: Some outputs are large and may be stored locally; check `.gitignore` for f
 Author: Pedro24681  
 Contact: (add your preferred email or LinkedIn link)  
 
-For full technical findings, see `ANALYSIS_SUMMARY.md`.
+For full technical findings, please see my `ANALYSIS_SUMMARY.md`.
